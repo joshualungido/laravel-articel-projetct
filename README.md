@@ -34,21 +34,27 @@ This project is a simple website built with Laravel 11, featuring dynamic pages 
    ```bash
    git clone https://github.com/joshualungido/laravel-articel-projetct.git
 2. Navigate to the project directory:
+   ```bash
     cd laravel-articel-projetct
 
-3. Install dependencies :
+4. Install dependencies :
+   ```bash
    composer install
     npm install
     npm run dev
-4. Set up the environment:
+6. Set up the environment:
+   ```bash
     Create a .env file by copying the .env.example file.
     Configure database settings in the .env file:
     DB_DATABASE=your_database_name
     DB_USERNAME=your_database_username
     DB_PASSWORD=your_database_password
 
-5. Run database migrations and seeders:
+7. Run database migrations and seeders:
+   ```bash
    php artisan migrate:fresh --seed
-6. Start Application
+7. Start Application
+   ```bash
+   npm run dev
     npm run dev
 
