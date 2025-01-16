@@ -56,5 +56,4 @@ This project is a simple website built with Laravel 11, featuring dynamic pages 
 7. Start Application
    ```bash
    npm run dev
-    npm run dev
 
